@@ -7,4 +7,9 @@ package com.yyx.chatroom.service;
  *@Package :com.yyx.chatroom.service
  */
 public interface RoomService {
+    //加入聊天室
+    String joinRoom(String roomId, String userId);
+
+    //离开聊天室
+    String leaveRoom(String roomId, String userId);
 }
